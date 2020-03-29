@@ -1,0 +1,84 @@
+.body {
+	background: linear-gradient(-45deg, rgb(165, 193, 206),rgb(0, 56, 96), #2b6d85, #9da5a3);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    min-height: 800px;
+    padding-top: 150px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.dashBoard{
+    width:1000px;
+    margin:auto;
+    background-color: rgb(183, 209, 228);
+    min-height: 400px;
+    border-radius:10px;
+  text-align: center;
+  color :rgb(0, 56, 96);
+    font-weight: 200;
+    padding-top: 20px;
+
+
+}
+.reglog{
+  color:rgb(183, 209, 228);
+  padding-left:100px;
+ 
+}
+.reglog input{
+  width: 300px;
+  border-radius: 10px;
+}
+.reglog p button {
+  width:200px;
+  color:rgb(0, 56, 96);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+ .row button{
+  width:200px;
+  height: 25px;
+  margin-left:20px;
+  border-radius:8px;
+  color:rgb(0, 56, 96);
+  margin-top: 20px;
+
+  
+}
+.row button Link{
+  color:rgb(0, 56, 96);
+}
+.button{
+  width:100px;
+  height: 25px;
+  margin-left:20px;
+  border-radius:8px;
+  color:rgb(0, 56, 96);
+  margin-top: 20px;
+  
+}
+input{
+  width:200px;
+  border-radius:10px;
+  margin-bottom: 5px;
+}
+.formtask{
+  
+  margin:auto;
+  width:400px;
+  
+  padding-top:20px;
+}
+.formtask input{
+  margin-bottom: 10px;
+}
